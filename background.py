@@ -13,7 +13,7 @@ while capture.isOpened():
         if cv2.waitKey(3) == ord('q'): # ord gives unicode value of 'q'
             # so with waitKey it would wait for ~ 3 sec and you may press 'q'
             # save the image by name of image.jpg in img
-            cv2.imwrite('image.jpg', img)
+            cv2.imwrite('images/image.jpg', img)
             break
 
 capture.release() # release all resources

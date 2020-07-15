@@ -1,4 +1,4 @@
-# invisible cloak project <br>
+# Invisible Cloak project in python<br>
 
 ### The following project uses opencv,numpy libraries. <br>
 

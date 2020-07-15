@@ -5,6 +5,7 @@ capture = cv2.VideoCapture(0) # to capture photo from camera we pass 0
 
 while capture.isOpened():
     return_, img = capture.read() # reading from webcam
+    # return_ gives bool value of True if function run successfully and img is the captured image
     if return_:
         # img is what the camera is reading
         # so once you move out of sight the webcam & press q your background would be clicked
